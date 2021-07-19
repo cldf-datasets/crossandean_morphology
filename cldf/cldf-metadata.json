@@ -8,7 +8,14 @@
     "dc:related": null,
     "dc:source": "sources.bib",
     "dc:title": "CLDF dataset on Quechua morphology derived from Blum et al.'s \"Una aproximaci\u00f3n filoling\u00fc\u00edstica a la clasificaci\u00f3n interna del Quechua\" from 2021",
+    "dcat:accessURL": "https://github.com/Tarotis/crossandean_morphology",
     "prov:wasDerivedFrom": [
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
+            "rdf:about": "https://github.com/Tarotis/crossandean_morphology",
+            "dc:created": "984159f"
+        },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Glottolog",

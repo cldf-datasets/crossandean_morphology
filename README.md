@@ -33,12 +33,6 @@ Furthermore, this dataset is part of a research project which searches to re-eva
 - **Segments:** 42 (0 BIPA errors, 0 CTLS sound class errors, 41 CLTS modified)
 - **Inventory size (avg):** 20.65
 
-## Possible Improvements:
-
-
-
-- Entries missing sources: 2/2030 (0.10%)
-
 # Contributors
 
 Name | GitHub user | Description | Role
