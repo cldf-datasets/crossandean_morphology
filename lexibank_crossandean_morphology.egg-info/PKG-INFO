@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: lexibank-crossandean-morphology
+Version: 0.0.0
+Summary: CLDF dataset on Quechuan morphology derived from Blum et al.'s "Una aproximación filolingüística a la clasificación interna del Quechua" from 2021
+Home-page: UNKNOWN
+License: CC-BY-4.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: test
