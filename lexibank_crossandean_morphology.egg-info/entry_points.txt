@@ -1,3 +1,0 @@
-[lexibank.dataset]
-blumquechua = lexibank_crossandean_morphology:Dataset
-
