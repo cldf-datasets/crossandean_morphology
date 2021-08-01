@@ -1,8 +1,14 @@
 # CLDF dataset on Quechua morphology derived from Blum et al.'s "Una aproximación filolingüística a la clasificación interna del Quechua" from 2021
 
-Cite the source dataset as
+## How to cite
 
-> Blum, Frederic and Barrientos Ugarte, Carlos and Poirier, Zoe and Ingunza, Adriano. Forthcoming. Una aproximación filolingüística a la clasificación interna del Quechua. Talk to be presented at Red Europea para los Estudios Andinos, Tübingen.
+If you use these data please cite
+- the original source
+  > Blum, Frederic and Barrientos Ugarte, Carlos and Poirier, Zoe and Ingunza, Adriano. Forthcoming. Una aproximación filolingüística a la clasificación interna del Quechua. Talk to be presented at Red Europea para los Estudios Andinos, Tübingen.
+- the derived dataset using the DOI of the [particular released version](../../releases/) you were using
+
+## Description
+
 
 This dataset is licensed under a CC-BY-4.0 license
 
@@ -19,19 +25,25 @@ Furthermore, this dataset is part of a research project which searches to re-eva
 
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 0%](https://img.shields.io/badge/Concepticon-0%25-red.svg "Concepticon: 0%")
-![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
+![Source: 0%](https://img.shields.io/badge/Source-0%25-red.svg "Source: 0%")
 ![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 
 - **Varieties:** 23
-- **Concepts:** 218
-- **Lexemes:** 2,030
-- **Sources:** 20
+- **Concepts:** 192
+- **Lexemes:** 1,957
+- **Sources:** 0
 - **Synonymy:** 1.14
 - **Invalid lexemes:** 0
-- **Tokens:** 6,149
-- **Segments:** 42 (0 BIPA errors, 0 CTLS sound class errors, 41 CLTS modified)
-- **Inventory size (avg):** 20.65
+- **Tokens:** 5,902
+- **Segments:** 40 (0 BIPA errors, 0 CTLS sound class errors, 39 CLTS modified)
+- **Inventory size (avg):** 20.91
+
+## Possible Improvements:
+
+
+
+- Entries missing sources: 1957/1957 (100.00%)
 
 # Contributors
 
@@ -44,3 +56,10 @@ Zoe Poirier | @zrpm | maintainer | Author
 Mattis List | @LinguList | maintainer | Other
 
 
+
+
+## CLDF Datasets
+
+The following CLDF datasets are available in [cldf](cldf):
+
+- CLDF [Wordlist](https://github.com/cldf/cldf/tree/master/modules/Wordlist) at [cldf/cldf-metadata.json](cldf/cldf-metadata.json)
