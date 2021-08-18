@@ -33,13 +33,20 @@ count = 0
 for idx, language, form in wl.iter_rows("doculect", "value"):
     if (language, form) in sla:
         wl[idx, "source"] = sla[language, form]
+    elif language == 'Apurimac':
+        wl[idx, "source"] = 'camacho2006'
+    elif language == 'Chachapoyas':
+        wl[idx, "source"] = 'taylor1979'
+    elif language == 'Imbabura':
+        wl[idx, "source"] = 'cole1985'
     else:
         count += 1
 
 print(count)
 
 lex = LexiBase(wl)
-lex.db = "crossandean-new.sqlite3"
-lex.create("crossandean")
+lex.db = "crossandeanm-new.sqlite3"
+lex.create("crossandeanm")
 
+lex.output('tsv', filename="dummy", ignore="all")
 
