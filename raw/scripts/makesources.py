@@ -24,9 +24,9 @@ for k, vals in source2lang.items():
 
 
 wl = fetch("crossandeanm", to_lingpy=True,
-    columns=["ID", "ALIGNMENT", "COGIDS", "CONCEPT",
-                        "DOCULECT", "FORM", 
-                        "SPANISH", "TOKENS", "VALUE", "BORROWING", "NOTE",
+    columns=["ALIGNMENT", "CONCEPT",
+                        "DOCULECT", "FORM", "VALUE",
+                        "TOKENS", "COGIDS", "BORROWING", "NOTE",
                         "SOURCE"]
         )
 count = 0
