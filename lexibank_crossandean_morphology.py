@@ -61,8 +61,8 @@ class Dataset(BaseDataset):
         errors = set()
         wl = Wordlist(str(self.raw_dir.joinpath('crossandean_morphology.tsv')))
 
-        for idx, language, concept, value, form, tokens, comment in progressbar(wl.iter_rows( # missing source right now
-                "doculect", "concept", "value", "form", "tokens", "note"), #, "source"),
+        for idx, language, concept, value, form, tokens, comment, source in progressbar(wl.iter_rows( # missing source right now
+                "doculect", "concept", "value", "form", "tokens", "note", "source"),
                 desc="cldfify"):
             if language not in languages:
                 errors.add(("language", language))
@@ -75,7 +75,7 @@ class Dataset(BaseDataset):
                     Value=value.strip() or form.strip(),
                     Form=form.strip(),
                     Segments=tokens,
-                    #Source=source,
+                    Source=source,
                     Comment=comment
                     )
                        # args.writer.add_cognate(
