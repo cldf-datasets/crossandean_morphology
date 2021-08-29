@@ -13,7 +13,7 @@
         {
             "rdf:about": "https://github.com/Tarotis/crossandean_morphology",
             "rdf:type": "prov:Entity",
-            "dc:created": "bf3202d",
+            "dc:created": "6b1ec95",
             "dc:title": "Repository"
         },
         {
@@ -57,7 +57,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
-            "dc:extent": 2152,
+            "dc:extent": 2091,
             "tableSchema": {
                 "columns": [
                     {
@@ -230,7 +230,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 198,
+            "dc:extent": 173,
             "tableSchema": {
                 "columns": [
                     {

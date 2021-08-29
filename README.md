@@ -30,14 +30,14 @@ Furthermore, this dataset is part of a research project which searches to re-eva
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 
 - **Varieties:** 24
-- **Concepts:** 198
-- **Lexemes:** 2,152
-- **Sources:** 21
-- **Synonymy:** 1.10
+- **Concepts:** 173
+- **Lexemes:** 2,091
+- **Sources:** 22
+- **Synonymy:** 1.09
 - **Invalid lexemes:** 0
-- **Tokens:** 6,493
-- **Segments:** 42 (0 BIPA errors, 0 CTLS sound class errors, 42 CLTS modified)
-- **Inventory size (avg):** 22.29
+- **Tokens:** 6,217
+- **Segments:** 43 (0 BIPA errors, 0 CTLS sound class errors, 43 CLTS modified)
+- **Inventory size (avg):** 22.50
 
 # Contributors
 
