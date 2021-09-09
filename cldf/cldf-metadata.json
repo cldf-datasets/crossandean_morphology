@@ -8,12 +8,12 @@
     "dc:related": null,
     "dc:source": "sources.bib",
     "dc:title": "CLDF dataset on Quechua morphology derived from Blum et al.'s \"Una aproximaci\u00f3n filoling\u00fc\u00edstica a la clasificaci\u00f3n interna del Quechua\" from 2021",
-    "dcat:accessURL": "https://github.com/Tarotis/crossandean_morphology",
+    "dcat:accessURL": "https://github.com/cldf-datasets/crossandean_morphology",
     "prov:wasDerivedFrom": [
         {
-            "rdf:about": "https://github.com/Tarotis/crossandean_morphology",
+            "rdf:about": "https://github.com/cldf-datasets/crossandean_morphology",
             "rdf:type": "prov:Entity",
-            "dc:created": "af17be6",
+            "dc:created": "d79915c",
             "dc:title": "Repository"
         },
         {
@@ -126,6 +126,10 @@
                     {
                         "datatype": "string",
                         "name": "Profile"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Borrowing"
                     }
                 ],
                 "foreignKeys": [
@@ -259,6 +263,80 @@
                 ]
             },
             "url": "parameters.csv"
+        },
+        {
+            "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#CognateTable",
+            "dc:extent": 2286,
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#formReference",
+                        "name": "Form_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://linguistics-ontology.org/gold/2010/FormUnit",
+                        "name": "Form"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#cognatesetReference",
+                        "name": "Cognateset_ID"
+                    },
+                    {
+                        "datatype": "boolean",
+                        "name": "Doubt"
+                    },
+                    {
+                        "datatype": "string",
+                        "default": "expert",
+                        "name": "Cognate_Detection_Method"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",
+                        "separator": ";",
+                        "name": "Source"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#alignment",
+                        "separator": " ",
+                        "name": "Alignment"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Alignment_Method"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Alignment_Source"
+                    }
+                ],
+                "foreignKeys": [
+                    {
+                        "columnReference": [
+                            "Form_ID"
+                        ],
+                        "reference": {
+                            "resource": "forms.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "cognates.csv"
         }
     ]
 }

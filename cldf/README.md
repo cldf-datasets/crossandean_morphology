@@ -11,8 +11,8 @@ property | value
 [dc:bibliographicCitation](http://purl.org/dc/terms/bibliographicCitation) | Blum, Frederic and Barrientos Ugarte, Carlos and Poirier, Zoe and Ingunza, Adriano. Forthcoming. Una aproximación filolingüística a la clasificación interna del Quechua. Talk to be presented at Red Europea para los Estudios Andinos, Tübingen.
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF Wordlist](http://cldf.clld.org/v1.0/terms.rdf#Wordlist)
 [dc:license](http://purl.org/dc/terms/license) | https://creativecommons.org/licenses/by/4.0/
-[dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/Tarotis/crossandean_morphology
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/Tarotis/crossandean_morphology/tree/af17be6">Tarotis/crossandean_morphology af17be6</a></li><li><a href="https://github.com/glottolog/glottolog/tree/d68f7280c0">Glottolog v4.3-treedb-fixes-325-gd68f7280c0</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/ea3a6c8">Concepticon v2.5.0-2-gea3a6c8</a></li><li><a href="https://github.com/cldf-clts/clts/tree/df0f44c">CLTS v2.0.0-2-gdf0f44c</a></li></ol>
+[dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/cldf-datasets/crossandean_morphology
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/cldf-datasets/crossandean_morphology/tree/d79915c">cldf-datasets/crossandean_morphology d79915c</a></li><li><a href="https://github.com/glottolog/glottolog/tree/d68f7280c0">Glottolog v4.3-treedb-fixes-325-gd68f7280c0</a></li><li><a href="https://github.com/concepticon/concepticon-data/tree/ea3a6c8">Concepticon v2.5.0-2-gea3a6c8</a></li><li><a href="https://github.com/cldf-clts/clts/tree/df0f44c">CLTS v2.0.0-2-gdf0f44c</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>lingpy-rcParams</strong>: <a href="./lingpy-rcParams.json">lingpy-rcParams.json</a></li><li><strong>python</strong>: 3.9.6</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | crossandean_morphology
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
@@ -43,6 +43,7 @@ Name/Property | Datatype | Description
 `Loan` | `boolean` | 
 `Graphemes` | `string` | 
 `Profile` | `string` | 
+`Borrowing` | `string` | 
 
 ## <a name="table-languagescsv"></a>Table [languages.csv](./languages.csv)
 
@@ -83,4 +84,27 @@ Name/Property | Datatype | Description
 [Name](http://cldf.clld.org/v1.0/terms.rdf#name) | `string` | 
 [Concepticon_ID](http://cldf.clld.org/v1.0/terms.rdf#concepticonReference) | `string` | 
 `Concepticon_Gloss` | `string` | 
+
+## <a name="table-cognatescsv"></a>Table [cognates.csv](./cognates.csv)
+
+property | value
+ --- | ---
+[dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF CognateTable](http://cldf.clld.org/v1.0/terms.rdf#CognateTable)
+[dc:extent](http://purl.org/dc/terms/extent) | 2286
+
+
+### Columns
+
+Name/Property | Datatype | Description
+ --- | --- | --- 
+[ID](http://cldf.clld.org/v1.0/terms.rdf#id) | `string` | Primary key
+[Form_ID](http://cldf.clld.org/v1.0/terms.rdf#formReference) | `string` | References [forms.csv::ID](#table-formscsv)
+[Form](http://linguistics-ontology.org/gold/2010/FormUnit) | `string` | 
+[Cognateset_ID](http://cldf.clld.org/v1.0/terms.rdf#cognatesetReference) | `string` | 
+`Doubt` | `boolean` | 
+`Cognate_Detection_Method` | `string` | 
+[Source](http://cldf.clld.org/v1.0/terms.rdf#source) | list of `string` (separated by `;`) | References [sources.bib::BibTeX-key](./sources.bib)
+[Alignment](http://cldf.clld.org/v1.0/terms.rdf#alignment) | list of `string` (separated by ` `) | 
+`Alignment_Method` | `string` | 
+`Alignment_Source` | `string` | 
 
