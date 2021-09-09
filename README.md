@@ -1,5 +1,7 @@
 # CLDF dataset on Quechua morphology derived from Blum et al.'s "Una aproximación filolingüística a la clasificación interna del Quechua" from 2021
 
+[![CLDF validation](https://github.com/cldf-datasets/crossandean_morphology/workflows/CLDF-validation/badge.svg)](https://github.com/cldf-datasets/crossandean_morphology/actions?query=workflow%3ACLDF-validation)
+
 ## How to cite
 
 If you use these data please cite
@@ -23,6 +25,7 @@ Furthermore, this dataset is part of a research project which searches to re-eva
 ## Statistics
 
 
+[![CLDF validation](https://github.com/cldf-datasets/crossandean_morphology/workflows/CLDF-validation/badge.svg)](https://github.com/cldf-datasets/crossandean_morphology/actions?query=workflow%3ACLDF-validation)
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 0%](https://img.shields.io/badge/Concepticon-0%25-red.svg "Concepticon: 0%")
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
@@ -34,8 +37,10 @@ Furthermore, this dataset is part of a research project which searches to re-eva
 - **Lexemes:** 2,091
 - **Sources:** 22
 - **Synonymy:** 1.09
+- **Cognacy:** 2,286 cognates in 229 cognate sets (71 singletons)
+- **Cognate Diversity:** 0.03
 - **Invalid lexemes:** 0
-- **Tokens:** 6,217
+- **Tokens:** 6,210
 - **Segments:** 43 (0 BIPA errors, 0 CTLS sound class errors, 43 CLTS modified)
 - **Inventory size (avg):** 22.50
 
@@ -57,4 +62,3 @@ Mattis List | @LinguList | maintainer | Other
 The following CLDF datasets are available in [cldf](cldf):
 
 - CLDF [Wordlist](https://github.com/cldf/cldf/tree/master/modules/Wordlist) at [cldf/cldf-metadata.json](cldf/cldf-metadata.json)
-

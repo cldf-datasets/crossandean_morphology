@@ -526,7 +526,7 @@ ID	ALIGNMENT	COGIDS	CONCEPT	DOCULECT	FORM	SOURCE	TOKENS	VALUE	NOTE	BORROWING
 583	m a n t a	571	ABLATIVE	Chachapoyas	manta	taylor1979	m a n t a	manta		
 584	t a	614	ACCUSATIVE	Chachapoyas	ta	taylor1979	t a	ta		
 585	k	674	AGENTIVE	Chachapoyas	k	taylor1979	k	k		
-586	j u p a j	704	ASSIMILATIVE	Chachapoyas	yupay	taylor1979	j u p a j	yupay, šina		
+586	j u p ai	704	ASSIMILATIVE	Chachapoyas	yupay	taylor1979	j u p ai	yupay, šina		
 587	ʃ i n a	705	ASSIMILATIVE	Chachapoyas	šina	taylor1979	ʃ i n a	yupay, šina		
 588	p a -	720	BENEFACTIVE	Chachapoyas	pa	taylor1979	p a	pa	same as genitive	
 589	tʃ i	766	CAUSATIVE	Chachapoyas	či	taylor1979	tʃ i	či		
@@ -655,7 +655,7 @@ ID	ALIGNMENT	COGIDS	CONCEPT	DOCULECT	FORM	SOURCE	TOKENS	VALUE	NOTE	BORROWING
 717	t i	797	CHARACTERISTIC	Cuzco	ti	cusihuaman1976	t i	ti, li		
 718	l i	798	CHARACTERISTIC	Cuzco	li	cusihuaman1976	l i	ti, li		
 719	m u	800	CISLOCATIVE	Cuzco	mu	cusihuaman1976	m u	mu		
-720	n i ɾ a j	827	SIMILITUDE	Cuzco	niray	cusihuaman1976	n i ɾ a j	niray, niraq		
+720	n i ɾ ai	827	SIMILITUDE	Cuzco	niray	cusihuaman1976	n i ɾ ai	niray, niraq		
 721	n i ɾ a q	827	SIMILITUDE	Cuzco	niraq	cusihuaman1976	n i ɾ a q	niray, niraq		
 722	ɾ a j a	8	UNINTERRUPTED ACTION	Cuzco	raya	cusihuaman1976	ɾ a j a	raya		
 723	m a n	911	DATIVE/ILATIVE	Cuzco	man	cusihuaman1976	m a n	man		
@@ -711,8 +711,8 @@ ID	ALIGNMENT	COGIDS	CONCEPT	DOCULECT	FORM	SOURCE	TOKENS	VALUE	NOTE	BORROWING
 781	ɾ - u	2234	URGENT	Cuzco	ru	cusihuaman1976	ɾ u	ru		
 782	m a	4	1 OBJECT	Ferrenafe	ma	taylor1982	m a	ma		
 783	j k i	24	1S SUBJECT 2S OBJECT	Ferrenafe	yki	taylor1982	j k i	yki		
-784	ɾ a j	45	1 SUBJECT 2 OBJECT PRETERIT	Ferrenafe	ray	taylor1982	ɾ a j	ray		
-785	ʃ u - + ɾ a j	111 45	1 SUBJECT 2 OBJECT PRETERIT	Ferrenafe	shuray	taylor1982	ʃ u + ɾ a j	shuray		
+784	ɾ ai	45	1 SUBJECT 2 OBJECT PRETERIT	Ferrenafe	ray	taylor1982	ɾ ai	ray		
+785	ʃ u + ɾ ai	111 45	1 SUBJECT 2 OBJECT PRETERIT	Ferrenafe	shuray	taylor1982	ʃ u + ɾ ai	shuray		
 786	n tʃ i k	58	1PL POSSESSOR	Ferrenafe	nchik	taylor1982	n tʃ i k	nchik		
 787	n tʃ i k	58	1PL VERBAL	Ferrenafe	nchik	taylor1982	n tʃ i k	nchik		
 788	ç u n	111	1PL VERBAL FUTURE	Ferrenafe	shun	taylor1982	ç u n	shun		
@@ -1724,7 +1724,7 @@ ID	ALIGNMENT	COGIDS	CONCEPT	DOCULECT	FORM	SOURCE	TOKENS	VALUE	NOTE	BORROWING
 1886	i ʒ a -	14	DIMINUTIVE	Santiagueno	illa	juanatey2020	i ʒ a	cha, illu, illa		esp
 1887	n a	2270	VERBALIZER	Santiagueno	na	juanatey2020	n a	na	Adverbial particle	
 1888	tʃ u	1029	DISJUNCTIVE	Santiagueno	chu	juanatey2020	tʃ u	chu		
-1889	tʃ a χ a j	12	DISTAL REMOVED DEMONSTRATIVE	Santiagueno	chaqay	juanatey2020	tʃ a χ a j	chaqay	variation chaqa/chaqay	
+1889	tʃ a χ ai	12	DISTAL REMOVED DEMONSTRATIVE	Santiagueno	chaqay	juanatey2020	tʃ a χ ai	chaqay	variation chaqa/chaqay	
 1890	tʃ k a	1062	PROGRESSIVE	Santiagueno	chka	juanatey2020	tʃ k a	chka		
 1892	- ( - ) - a ( - )	20	INTENSIFIER	Santiagueno	á	juanatey2020	a	á	maybe a clitic, not sure	
 1893	tʃ a	18	EVIDENTIAL CONJECTURAL	Santiagueno	cha	alderetes2001	tʃ a	cha		
@@ -1792,7 +1792,7 @@ ID	ALIGNMENT	COGIDS	CONCEPT	DOCULECT	FORM	SOURCE	TOKENS	VALUE	NOTE	BORROWING
 1958	p i s	639	ADDITIVE	Tarma	pis	adelaar1977	p i s	pis		
 1959	b a s l a	672	ADJECTIVAL	Tarma	basla	adelaar1977	b a s l a	basla	no indication of meaning	
 1960	q	674	AGENTIVE	Tarma	q	adelaar1977	q	q		
-1961	j u p a j	704	ASSIMILATIVE	Tarma	yupay	adelaar1977	j u p a j	yupay		
+1961	j u p ai	704	ASSIMILATIVE	Tarma	yupay	adelaar1977	j u p ai	yupay		
 1962	p a q	720	BENEFACTIVE	Tarma	paq	adelaar1977	p a q	paq		
 1963	n u j	750	BROAD EQUATIONAL	Tarma	nuy	adelaar1977	n u j	nuy		
 1964	t a q	754	INTERROGATION	Tarma	taq	adelaar1977	t a q	taq		
@@ -1853,7 +1853,7 @@ ID	ALIGNMENT	COGIDS	CONCEPT	DOCULECT	FORM	SOURCE	TOKENS	VALUE	NOTE	BORROWING
 2021	ɾ	2114	SUBORDINATOR IDSUB	Tarma	r	adelaar1977	ɾ	r		
 2022	p t i	2144	SUBORDINATOR DIFFSUB	Tarma	pti	adelaar1977	p t i	pti		
 2023	q a	2178	TOPIC	Tarma	qa	adelaar1977	q a	qa		
-2024	p a j	2199	TOPOGRAPHIC	Tarma	pay	adelaar1977	p a j	pay		
+2024	p ai	2199	TOPOGRAPHIC	Tarma	pay	adelaar1977	p ai	pay		
 2025	p a	2201	VERBAL BENEFACTIVE	Tarma	pa	adelaar1977	p a	pa, pu		
 2026	p u	2201	VERBAL BENEFACTIVE	Tarma	pu	adelaar1977	p u	pa, pu		
 2027	ɾ a	11	UNINTERRUPTED ACTION	Tarma	ra	adelaar1977	ɾ a	ra		
